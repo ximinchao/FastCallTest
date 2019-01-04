@@ -1,0 +1,25 @@
+{
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "for fastcall test",
+  "main": "index.js",
+  "scripts": {
+    "test1": "./node_modules/.bin/jest",
+    "test2": "./node_modules/.bin/mocha ./test/mochatest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "^23.6.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "fastcall": "^0.2.6",
+    "path": "^0.12.7"
+  }
+}
